@@ -1,0 +1,37 @@
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+	<android.support.design.widget.AppBarLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+	    app:theme="@style/MD_Dark"
+	    >
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/details_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+			app:layout_scrollFlags="scroll|enterAlways"/>
+	</android.support.design.widget.AppBarLayout>
+		<com.db.chart.view.LineChartView
+			android:contentDescription="@string/desc_line_chart"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/linechart"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:padding="10dp"
+			android:layout_weight="2"/>
+		<FrameLayout
+			android:id="@+id/text_name"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"/>
+	</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

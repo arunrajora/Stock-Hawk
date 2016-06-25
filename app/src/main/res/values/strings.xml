@@ -1,0 +1,17 @@
+<resources>
+	<string name="app_name" translatable="false">Stock Hawk</string>
+	<string name="action_settings" translatable="true">Settings</string>
+	<string name="action_change_units" translatable="true">Change Units</string>
+	<string name="symbol_search" translatable="true">Symbol Search</string>
+	<string name="content_test" translatable="true">Search for a Stock Symbol</string>
+	<string name="input_hint" translatable="false">FB</string>
+	<string name="input_prefill"></string>
+	<string name="network_toast" translatable="true">Uh-oh! This app requires an internet connection</string>
+	<string name="title_activity_stock_details" translatable="true">STOCK DETAILS</string>
+	<string name="empty_widget_list" translatable="true">No Stock To Show !!!</string>
+	<string name="fetching_new_data" translatable="true">TRYING TO FETCH NEW DATA ...</string>
+	<string name="no_stock_added" translatable="true">NO STOCKS ADDED</string>
+	<string name="adding_default_stocks" translatable="true">NO STOCKS ADDED, ADDING DEFAULT STOCKS</string>
+	<string name="desc_line_chart">LINE CHART SHOWING STOCK CLOSING VALUE FOR LAST 1 MONTH</string>
+	<string name="add_new_stock">Add New Stock</string>
+</resources>
